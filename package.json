@@ -1,0 +1,84 @@
+{
+  "name": "vue-admin",
+  "version": "1.0.0",
+  "description": "后台管理系统精简版",
+  "keywords": [
+    "bin-ui",
+    "bin",
+    "ui",
+    "admin",
+    "vue-admin",
+    "components"
+  ],
+  "author": "wang bin",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev:doc": "vuepress dev docs",
+    "build:doc": "vuepress build docs"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "bin-ui": "^2.3.8",
+    "echarts": "^4.2.1",
+    "element-ui": "^2.10.1",
+    "good-storage": "^1.1.0",
+    "mockjs": "^1.0.1-beta3",
+    "nprogress": "^0.2.0",
+    "qs": "^6.7.0",
+    "vue": "^2.6.10",
+    "vue-count-to": "^1.0.13",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.2",
+    "@vue/cli-plugin-eslint": "^3.9.2",
+    "@vue/cli-service": "^3.9.2",
+    "babel-eslint": "^10.0.2",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^0.14.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-debugger": "off",
+      "no-console": "off",
+      "indent": "off",
+      "space-before-function-paren": "off",
+      "no-unused-vars": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
